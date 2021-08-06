@@ -1,0 +1,59 @@
+{
+  "name": "egg-base-api",
+  "version": "1.0.0",
+  "description": "base api",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "dayjs": "^1.10.6",
+    "egg": "^2.15.1",
+    "egg-cors": "^2.2.3",
+    "egg-jwt": "^3.1.7",
+    "egg-redis": "^2.4.0",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-validate": "^2.0.2",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.2.5",
+    "mz-modules": "^2.1.0",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-egg-base-api",
+    "stop": "egg-scripts stop --title=egg-server-egg-base-api",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Meng Lingyue",
+  "license": "MIT"
+}

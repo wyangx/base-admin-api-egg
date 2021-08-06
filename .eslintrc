@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "space-before-function-paren": [0, "always"]
+  }
+}
