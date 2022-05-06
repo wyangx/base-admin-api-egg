@@ -1,3 +1,4 @@
+> forked from [menglingyue/base-admin-api-egg](https://gitee.com/menglingyue/base-admin-api-egg/tree/master)
 # egg-base-api
 
 Egg.js 前后端分离基础功能接口。
